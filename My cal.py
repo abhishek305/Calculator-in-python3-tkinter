@@ -12,7 +12,7 @@ operator=""
 
 def clickbut(number):   #lambda:clickbut(1)
      global operator
-     operator=operator+str(numbers)
+     operator=operator+str(number)
      textin.set(operator)
 
 def equlbut():
@@ -93,6 +93,6 @@ butclear.place(x=270,y=100)
 
 butequal=Button(me,padx=151,pady=14,bd=4,bg='white',command=equlbut,text="=",font=("Courier New",16,'bold'))
 butequal.place(x=10,y=380)
-
+me.mainloop()
 
 
