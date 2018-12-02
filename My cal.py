@@ -2,7 +2,7 @@ from tkinter import*
 
 me=Tk()
 me.geometry("354x460")
-me.title("CALCULATOR")
+me.title("CALCULATOR IN PYTHON")
 melabel = Label(me,text="CALCULATOR",bg='White',font=("Times",30,'bold'))
 melabel.pack(side=TOP)
 me.config(background='Dark gray')
