@@ -1,3 +1,4 @@
+#importing everything from tkinter
 from tkinter import*
 
 me=Tk()
@@ -10,6 +11,7 @@ me.config(background='Dark gray')
 textin=StringVar()
 operator=""
 
+#making functions for button
 def clickbut(number):   #lambda:clickbut(1)
      global operator
      operator=operator+str(number)
@@ -39,10 +41,11 @@ def equlbut():
 def clrbut():
      textin.set('')
 
-     
+#Creating Entry
 metext=Entry(me,font=("Courier New",12,'bold'),textvar=textin,width=25,bd=5,bg='powder blue')
 metext.pack()
 
+#Creating buttons
 but1=Button(me,padx=14,pady=14,bd=4,bg='white',command=lambda:clickbut(1),text="1",font=("Courier New",16,'bold'))
 but1.place(x=10,y=100)
 
@@ -94,5 +97,3 @@ butclear.place(x=270,y=100)
 butequal=Button(me,padx=151,pady=14,bd=4,bg='white',command=equlbut,text="=",font=("Courier New",16,'bold'))
 butequal.place(x=10,y=380)
 me.mainloop()
-
-
