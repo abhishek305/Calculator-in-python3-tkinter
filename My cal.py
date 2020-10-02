@@ -37,7 +37,9 @@ def equlbut():
      operator=''    
 
 def clrbut():
-     textin.set('')
+     global operator
+     operator = ""
+     textin.set("")
 
      
 metext=Entry(me,font=("Courier New",12,'bold'),textvar=textin,width=25,bd=5,bg='powder blue')
@@ -94,5 +96,3 @@ butclear.place(x=270,y=100)
 butequal=Button(me,padx=151,pady=14,bd=4,bg='white',command=equlbut,text="=",font=("Courier New",16,'bold'))
 butequal.place(x=10,y=380)
 me.mainloop()
-
-
