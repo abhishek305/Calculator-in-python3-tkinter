@@ -1,6 +1,5 @@
-## Python GUI Calculator
-Using Tkinter GUI Lib
-***
+# Python GUI Calculator
+Using Tkinter GUI Lib. 
 ## Screenshot:
 [![Screenshot](ScreenShot.png)]()
 ***
