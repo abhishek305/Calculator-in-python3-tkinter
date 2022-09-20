@@ -38,6 +38,9 @@ def equlbut():
 
 def clrbut():
      textin.set('')
+     textin = ""
+     
+     
 
      
 metext=Entry(me,font=("Courier New",12,'bold'),textvar=textin,width=25,bd=5,bg='powder blue')
