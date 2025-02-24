@@ -96,3 +96,4 @@ butequal.place(x=10,y=380)
 me.mainloop()
 
 
+print("hi from selva")
