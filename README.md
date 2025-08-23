@@ -1,1 +1,1 @@
-# Calculator-in-python3-tkinter
+# Calculator in python3 tkinter
